@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>register ^ . ^</title>
+        <link rel="stylesheet" href="style.css">
+    </header>
+
+    <body>
+        <div class="container">
+            <p id="title">^.^</p>
+            <form id="login-form">
+                <input type="text" placeholder="email">
+                
+                <input type="password" placeholder="password" id="pwd">
+                <input type="password" placeholder="confirm password" id="confirmation">
+                <input type="submit" value="register">
+            </form>
+
+            <div id="requirements">
+                <p>password requirements:</p>
+                <p id="length" class="invalid">minimum of <b>8</b> characters</p>
+                <p id="number" class="invalid">a number</p>
+                <p id="capital" class="invalid">an uppercase (capital) letter</p>
+                <p id="confirm" class="invalid">confirmation password must match</p>
+                <script src="requirements.js"></script>
+            </div>
+
+        </div>
+    </body>
+</html>

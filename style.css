@@ -1,0 +1,124 @@
+body {
+    background: #D9DBF1;
+}
+.container {
+    background: white;
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    text-align: center;
+    color: #979CD8;
+}
+form input {
+    color: #979CD8;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 0;
+    border: none;
+    background: #d9dbf1;
+    padding: 10px;
+    border-radius: 25px;
+
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+::placeholder {
+    color: #ADB0CE;
+
+}
+
+input[type=submit] {
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 0;
+    border: none;
+    background: #979CD8;
+    color: white;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type=submit]:hover {
+    background-color: #8489be;
+}
+form button {
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 0;
+    border: none;
+    background: #979CD8;
+    color: white;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+form button:hover {
+        background-color: #8489be;
+}
+
+.container a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    transform: translate(0, 50px);
+    color: #979CD8;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #8489be;
+}
+
+#requirements {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    transform: translate(0, 50px);
+    color: #979CD8;
+    text-decoration: none;
+}
+
+.invalid {
+    color: #979CD8;
+}
+
+.valid {
+    color: #8489be;
+    font-weight: 1000;
+    font-size: 12px;
+}
+
+.valid:after {
+    content: " ✓";
+}
